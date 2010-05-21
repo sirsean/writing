@@ -1,0 +1,54 @@
+So I've been thinking a lot about baseball economics lately. It's probably because the Twins aren't doing anything right now, except (presumably) talking to Mauer in secret and wishing major league player agents had their phone numbers listed in the telephone.* But with some people freaking out about the economy while others accusing the owners of collusion, it seems to me that this is all pretty much worth thinking about.
+
+_* Could this be why they never sign good players? Because they can't get agents on the phone? I would not put it past Bill Smith. And no, don't put it past me to make fun of them for something like this._
+
+Jayson Stark wrote an article a couple weeks ago that probably exploded across the blogosphere ... I say probably because I didn't really see anything come out of it, and I blame myself for missing it. But if the reaction to this article wasn't massive, well, then I'm pretty confused. Basically, Stark analyzed Boras' claim that some teams are getting $90M in revenue sharing and central-fund money each year. Stark invalidates Boras' number, but notes that if you add in local TV/radio deals, that [many teams are in fact getting $80-90M per year before they sell a single ticket](http://sports.espn.go.com/mlb/columns/story?columnist=stark_jayson&page=rumblings091119).
+
+Revenue sharing is actually only a portion of that money, but a fairly significant chunk:
+
+> Only income-challenged teams get a revenue-sharing check. But you should never forget that those checks are a lot larger than your average rebate check from Target. This sport shared $400 million in revenue this year -- more than the gross national product of Western Samoa. Now every club's payout is different. But the five neediest teams -- which we believe to be the Marlins, Pirates, Rays, Blue Jays and Royals -- averaged somewhere in the vicinity of $35 million in revenue-sharing handouts per team. And that still left over $200 million -- more than $20 million a club -- for the rest of the "payees" to divvy up.
+
+I don't know why he picked those five as the neediest teams -- assuming it goes by revenue, then it should be the Marlins, Royals, Pirates, Twins, and Athletics. So I'm going with those five instead.
+
+Let's say those five teams are each getting $35M per year in revenue sharing, because their revenues are so low. Well, let's take a gander at their profits, shall we?
+
+- Team: **Profits** (Profits rank)
+- Marlins: **$43.7M** (1st)
+- Royals: **9.0M** (23rd)
+- Pirates: **$15.9M** (19th)
+- Twins: **$26.8M** (6th)
+- Athletics: **$26.2M** (7th)
+
+So three of the top ten most profitable teams in baseball are receiving the most money in revenue sharing. Something seems wrong with that, no?
+
+I can come up with two fundamental reasons* for revenue sharing:
+
+1. To help competitive balance, the teams who make the most money will share a portion of their revenue with the teams who make the least, such that all teams can afford to field competitive teams and the gap between the haves and the have-nots will not increase
+2. To help the profitability of the ownership cartel, an ultra-exclusive clique whose membership cannot be bought at any price (in addition to being fabulously wealthy, you must also be a friend of Bud Selig _and_ approved by the current owners), who have already demonstrated a willingness to hold the fans hostage in order to muscle hundreds of millions of dollars from the taxpayers in the form of stadium deals (which, once they are built, feature increased ticket prices for the very people who paid for the stadium in the first place)
+
+_* Let me know if you think I've missed any reasons in the comments._
+
+Most fans have bought into revenue sharing because they believe the point of it is option number one -- and that's why people get so angry with Jeffrey Loria of the Marlins, who cuts costs to the bone every season, trades players once they hit arbitration, doesn't seem to care about fielding a competitive team, and is perennially the most profitable baseball team.
+
+But it's the fans that get most worked up about the Marlins' tactics; rarely does an owner make a stink over it. Until recently, when John Henry, the owner of the Red Sox, [complained about the revenue sharing system](http://www.boston.com/sports/baseball/redsox/extras/extra_bases/2009/12/red_sox_owner_j.html), somehow making the dual claims that the Red Sox are a small market franchise and that it's un-American to tax "the most ardent capitalists in the country" (like, for example, John Henry, who is being taxed significantly because the Red Sox are doing a good job of taking advantage of their large market and making plenty of money). 
+
+Do the owners _really_ care about the way the Marlins and other low-revenue franchises are dealing with the revenue sharing money? Surely the wealthier owners would prefer to keep their money; at the same time, changing the revenue sharing system would necessitate making other changes to help with competitive balance -- and those changes work decidedly against ownership. (I mean things like a salary floor/cap, pegging payroll to a percentage of revenue.) I think the owners would rather pay lip service to competitive balance and stick to the "we're all making buckets of cash" status quo. I suppose we'll see in a couple years during the next competitive bargaining agreement.
+
+What does this have to do with the Twins, I hear you asking? Well, 
+
+
+
+My thoughts on Henry? Well, given the fact that he's saying the Red Sox are the 16th largest market in the league, I have start off leaning toward the "he's full of shit" side of the fence. And he goes on to claim that the baseball owners are ardent capitalists, implying that the market for baseball teams is some sort of free market -- and his solution to the revenue sharing "problem" is to tax _payroll_ instead of _revenue_.
+
+It seems to me that Henry is being extremely self-serving on two levels:
+
+1. Taxing payroll instead of revenue would do considerably more damage to the Yankees (his main rival), than it would to the Red Sox; also, it would create an extreme incentive for him to increase revenue while decreasing costs, which would presumably be a delightful scenario for him.
+2. He comes off as someone who believes in Revenue Sharing Purpose #1, from above ... just like fans and regular people!
+
+But John Henry is part of that exclusive club, and he knows the deal. The vast majority of the owners have little shot at a championship; at the same time, Henry is right that virtually all the owners are "capitalists" who have amassed great wealth through other means. And if you know _anything_ about people like that, it's this: **they always give a shit about making money**. Which is why I've started leaning more and more towards Revenue Sharing Reason #2 being the true purpose of revenue sharing.
+
+This is a group of billionaires who have repeatedly proven that they're experts at making money (tons of it). They've taken taxpayer money to build stadiums which a) increase the value of their investment dramatically, and b) become a venue to charge the same taxpayers more money than ever for the same product. At the same time, they've somehow convinced the fans that the players and their agents are the bad guys -- that we should be angry at Boras, or Santana, or Hunter, or Teixeira, or Mauer, or any of these players, for trying to get as many millions out of those billions that they can. In what other scenario in American history has something like that happened? Why do fans relate more to the ultra-wealthy owners than they do to the players? And why are the fans interested in hearing about how supremely profitable MLB is, and how well they've weathered the economic storm, when the teams are turning around and using "the economy" as an excuse for lowballing* free agents?
+
+_* I don't know if the teams THINK they're lowballing, maybe they do, but I don't think they actually ARE. Apparently, though, a lot of fans do. And some of the deals being signed are for a lot less money than I thought they'd be._
+
+And that brings us back to the Twins. They've said they want to get to "revenue neutral," meaning that they wouldn't be taking in any money from revenue sharing at all. If they're currently receiving $35M, and they want to continue 

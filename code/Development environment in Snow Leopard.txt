@@ -1,0 +1,53 @@
+- Download Eclipse (you need the 32-bit Carbon, 3.3 Ganymede version) and Flex Builder 3
+- Untar Eclipse and move the eclipse/ directory to /Applications
+- Start the FB3_Plugin_Mac_Installer
+-- It may ask you to install Rosetta ... say yes.
+- Install Subversive as described here: https://wiki.trustwave.com/display/eng/Engineering+Environment+Setup
+- Download Maven from http://maven.apache.org/
+-- Put it into ~/Applications (that's in your home directory, and is also where I installed Tomcat)
+-- Add the following line to your ~/.profile file:
+--- export PATH=$HOME/Applications/apache-maven-2.2.1/bin:$PATH
+- Set up Niren's Maven plugin as described here: https://wiki.trustwave.com/display/eng/Eclipse+development+with+Maven
+- Check out portal-core
+-- Maven Update Dependencies
+-- Add Library to Java Build Path, using Trustwave DirLib Container (/web-app/maven-lib)
+-- Check /web-app/maven-lib in Java EE Module Dependencies
+- Check out the portal services using the following procedure:
+-- Check out the api submodule individually, _AS a Java project_
+--- Name it <project>-api
+--- Maven Update Dependencies
+--- Remove <project>-api/src Source Folder
+--- Add following Source Folders:
+---- <project>-api/src/main/java
+---- <project>-api/src/main/resources
+--- Add Library to Java Build Path using Trustwave DirLib Container
+---- /maven-lib
+-- Check out the service _AS a Dynamic Web Project_
+--- Name it <project>-service
+--- Maven Update Dependencies
+--- Remove <project>-service/src Source Folder
+--- Add following Source Folders:
+---- <project>-service/src/main/java
+---- <project>-service/src/main/resources
+---- <project>-service/src/main/webapp
+--- Add Library to Java Build Path using Trustwave DirLib Container
+---- /maven-lib
+--- Check /maven-lib in Java EE Module Dependencies
+--- Copy src/main/webapp/WEB-INF/remoting-servlet.xml & src/main/webapp/WEB-INF/web.xml to the new Eclipse-created folder WebContent/WEB-INF/
+-- Do this for each of the following projects (You can choose a tag or the trunk depending on whether or not you are actually doing work on that project):
+--- audit
+--- common-domain
+--- locale
+--- logging
+--- properties
+--- scheduler
+--- security
+---- You will need security-core as well as security-api and security-service
+--- session
+---- You will need session-api, session-api-controller, session-api-flex, session-service
+--- (And any others you may need)
+---- common-domain-swc
+---- pci-common
+---- scan-management
+---- scan-management-swc
+---- 

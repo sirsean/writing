@@ -1,0 +1,12 @@
+payment-gateway thoughts
+
+- The surface makes sense
+- The model objects don't seem like they'd be too difficult to use
+- I don't see how we could "implement security" within the payment-gateway itself
+-- Creating a "payment" role and giving it to certain users doesn't necessarily come close to narrowing down who can do what ... couldn't there be multiple applications that a customer is coming in through, and different people are responsible for payment within each app? We wouldn't want to give them both the overarching "payment" role, which would allow them to stomp on each other.
+-- Seems to me that the best way to do security here is to make sure the payment-gateway-service is only available _internally_, and then leave authorization responsibilities to the calling application (just like we do in common-domain)
+- I can only see how there can be multiple transactions per order if we allow them to pay for an order in pieces -- and I don't really see why we'd allow that.
+- I may be misunderstanding what you mean by "a flex application," but if you intend it to be a module ... I don't see how it would work
+-- I was thinking it'd work best as a payment-gateway-swc that included the VOs and visual components for taking credit card information
+-- Each consuming application would need to set up a <destination> pointing at the payment-gateway-service, and define delegate/model/event/command sets
+--- This is annoying, but we keep running into serious problems when we try to get Cairngorm to work any way other than this

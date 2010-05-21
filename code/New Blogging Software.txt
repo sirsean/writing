@@ -1,0 +1,9 @@
+So I've written some new blogging software, and have migrated Sean's Sports over to it. We'll see how this works out.
+
+The point of the new software is to be faster than Wordpress -- especially on Dreamhost, which has pathetically bad database performance. With this new blogging platform, the database has been thrown out entirely.
+
+The content is stored on the filesystem in HTML (translated from Markdown when it's posted). A small amount of metadata is stored in ini files.
+
+And there are no forms on the site; you can't leave comments, and there is no admin section. I post to it with a small client application that translates a Markdown txt file to HTML and uploads it to the server. This simplifies things tremendously, and is one more (large) section of the attack surface that I shouldn't have to worry about at all.
+
+So ... maybe I'll be posting on here more often. It's not baseball season, so the odds of non-Twins thoughts is as high as it'll ever be.

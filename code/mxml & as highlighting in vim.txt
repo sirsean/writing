@@ -1,0 +1,6 @@
+MXML & Actionscript syntax highlighting in vim/MacVim
+
+Here's where I learned where to put the .vim files: http://stackoverflow.com/questions/1107857/macvim-syntax-file-for-cs
+
+And here's my original post about it: http://seancode.blogspot.com/2008/01/flex-mxml-highlighting-in-vim.html
+

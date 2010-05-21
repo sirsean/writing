@@ -1,0 +1,13 @@
+Chrome's process-based tabs should have existed a long time ago.
+
+OSes have long allowed a single long-running process to deallocate memory that it's no longer using, thus allowing a browser to _not_ constantly increase its memory demands to the point that it has to be frequently restarted.
+
+Firefox came from Mozilla, which came from Netscape, which didn't have tabs. There were alleged "restarts" during that lineage, but that point is that it _is_ a lineage, and _at the very least_, parts of the design of the rendering engine, if not the browser itself, have come all the way along for the ride.
+
+It's notoriously difficult to handle the deallocation of memory perfectly,* and **it's even worse when you're trying to fix old code** to do it. You can't just shoehorn old code, or an old design, into a new program.
+
+_* Which is what you need for a long-running process not to leak memory, eventually._
+
+Maybe it's really, really difficult to do this kind of stuff on a large scale, on the scale of web browsers. But operating systems seem to be able to do it, and were doing it well before the 90s (real ones, that is). And when I was learning how to program, from books like K&R and The Art of Unix Programming and various textbooks, it was pretty clear that interprocess communication -- via shared memory and/or message passing -- was an effective and long-accepted programming style.
+
+**Why haven't browsers _always_ been like this?** Not that I can complain all that much -- it sure is nice to have it now.

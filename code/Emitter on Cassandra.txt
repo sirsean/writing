@@ -1,0 +1,68 @@
+
+Rework Emitter to run on Cassandra
+
+Common queries:
+
+- Get a single user's info
+- Get emissions in reverse chronological order (public feed, individual user's feed, user timelines)
+- TODO: How should emissions be stored?!
+- Get user's followers (alphabetic order by username)
+- Get users that a user is following (alphabetic order by username)
+
+ColumnFamily: Users
+Row Key: username
+Column Name: attribute for the user (full name, numEmissions, numFollowers, etc)
+Column Value: value of the associated attribute
+
+Users: {
+    user1: {
+        full_name: "User One",
+        num_emissions: 21,
+        num_followers: 8,
+        num_following: 2
+    }
+}
+
+Timelines: {
+}
+
+SuperColumnFamily: Followers
+Row Key: username
+
+Followers:
+    user1: {
+        user2: {
+            full_name: "User Two",
+            num_emissions: 4,
+            num_followers: 2,
+            num_following: 1
+        },
+        user3: {
+            full_name: "User Three",
+            num_emissions: 5,
+            num_followers: 3,
+            num_following: 2
+        }
+    },
+    user2: {
+        user1: {
+            full_name: "User One"
+        },
+        user4: {
+            full_name: "User Four"
+        }
+    }
+}
+
+Following: {
+    user1: {
+        user2: {
+            full_name: "User Two"
+        },
+        user3: {
+            full_name: "User Three"
+        }
+    }
+}
+
+

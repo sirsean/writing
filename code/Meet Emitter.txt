@@ -1,0 +1,13 @@
+Meet Emitter.
+
+Emitter believes that you should have the option of owning your data, rather than being forced to submit it to the care of a third party.
+
+Emitter believes that you shouldn't be limited in your expression to just 140 characters.
+
+Emitter believes that your tags, links, and images should not waste the space reserved for your words.
+
+Emitter believes 
+
+Emitter is an open communication platform, supporting extensible Twitter-like messages with user-defined metadata, encouraging server-to-server communication to deliver these messagess, and maintaining the follower/following relationships across myriad servers.
+
+What will you emit?

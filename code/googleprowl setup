@@ -1,0 +1,65 @@
+Google Voice is a pretty cool thing, I suppose, but I don't really use the phone enough for it to be useful for me.* But a friend of mine pointed out that there's something pretty cool you can do with it and an iPhone: have it forward text messages to the phone via Prowl (which sends arbitrary push notifications), and then respond to the text through Google Voice so as to completely cut out the SMS usage on your plan. I use some text messages, so that could easily save me a few bucks if it works nicely.
+
+_* I used 3 of 450 minutes last month. Yeah._
+
+What you need to do is set up a daemon to poll your Google Voice account, looking for new SMS messages; when it finds one, it needs to send an event to the Prowl API, which will then forward it on to your iPhone. From there, you can respond to the text message through Google Voice. So here's how you set it up on your Mac.
+
+I'll assume you already have a [Google Voice](http://www.google.com/voice/) account and a [Prowl](http://prowl.weks.net/) account.
+
+Firstly, there are a few dependencies:
+
+- [BeautifulSoup](http://www.crummy.com/software/BeautifulSoup/)
+- [prowlpy](http://github.com/jacobb/prowlpy/tree/master)
+
+So here's how you set up BeautifulSoup. 
+
+I first created a new working directory where I'm going to do all my work for this project. I do this for everything.
+
+mkdir googleprowl
+cd googleprowl
+
+Then it's time to download and unpack BeautifulSoup.
+
+curl http://www.crummy.com/software/BeautifulSoup/download/BeautifulSoup.tar.gz > BeautifulSoup.tar.gz
+tar zxvf BeautifulSoup.tar.gz
+cd BeautifulSoup-3.1.0.1
+sudo python setup.py install
+
+Then grab prowlpy.
+
+git clone git://github.com/jacobb/prowlpy.git
+
+Then you'll need to [install httplib2](http://code.google.com/p/httplib2/wiki/Install) (you may not already have this).
+
+curl http://httplib2.googlecode.com/files/httplib2-0.5.0.tar.gz > httplib2-0.5.0.tar.gz
+tar zxvf httplib2-0.5.0.tar.gz
+cd httplib2-0.5.0.tar.gz
+python setup.py install
+
+Now it's time to get the googlevoicenotify program.
+
+cd ..
+git clone git://github.com/mikeyk/googlevoicenotify.git
+
+The easiest way to get the prowlpy library available in googlevoicenotify is just to copy it in there:
+
+cp prowlpy/prowlpy.py googlevoicenotify/
+
+Get your API key from Prowl's website (after logging in, you go to the Settings tab), and create your API key file.
+
+vim ~/.prowlapi
+<paste in your api key>
+:wq
+
+Then set up your Google Voice settings file.
+
+vim ~./gvnotify
+gvid=yourusername
+password=yourpassword
+sleep=sleeptime (in seconds)
+:wq
+
+Alright, we're getting close!
+
+
+
